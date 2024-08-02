@@ -1,0 +1,156 @@
+.calendar {
+  border: 1px solid #bbbbbb;
+  height: 310px;
+  padding: 15px;
+  width: 270px;
+}
+
+.calendar-title {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.calendar-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.calendar-header-days {
+  display: flex;
+  margin: 10px 0;
+}
+
+.calendar-day-header {
+  flex: 1;
+  font-weight: bold;
+  text-align: center;
+}
+
+.calendar-display {
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar-row {
+  display: flex;
+}
+
+.calendar-day {
+  cursor: pointer;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.calendar-day.current-month {
+  background-color: #ffffff;
+}
+
+.calendar-day.other-month {
+  color: #eeeeee;
+}
+
+.calendar-day.selected {
+  background-color: #db3d44;
+  border-radius: 50%;
+  color: #f0f0f0 !important;
+  font-weight: bold;
+}
+
+.calendar-day.today {
+  color: #db3d44;
+  font-weight: bold;
+}
+
+.nav-button {
+  margin: 0 10px;
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: unset;
+  border: unset;
+}
+
+.month-picker-display {
+  align-items: center;
+  display: grid;
+  gap: 30px 10px;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  margin: 35px 0;
+}
+
+.month-picker-item {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  height: 25px;
+  width: 30px;
+}
+
+.month-picker-item.selected {
+  background-color: #db3d44;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+}
+
+.month-picker-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.year-picker {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.year-picker-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.year-picker-display {
+  align-items: center;
+  display: grid;
+  gap: 40px 0px;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  margin: 40px 0;
+}
+
+.year-picker-item {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.year-picker-item.selected {
+  background-color: #db3d44;
+  border-radius: 100%;
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  width: 50px;
+}
+
+.year {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.year-text-title {
+  font-weight: bold;
+}

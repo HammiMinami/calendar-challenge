@@ -1,0 +1,13 @@
+.date-picker {
+  margin: 3em 0 0;
+}
+
+.date-picker-input {
+  background: url("/assets/calendar-icon.svg") no-repeat left;
+  background-size: 20px;
+  border: 1px solid;
+  border-radius: 6px;
+  cursor: pointer;
+  padding-left: 25px;
+  height: 30px;
+}
