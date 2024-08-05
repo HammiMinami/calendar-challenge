@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/calendar-challenge/static/css/main.d72173d1.css",
-    "main.js": "/calendar-challenge/static/js/main.5ecb620c.js",
+    "main.js": "/calendar-challenge/static/js/main.0145ab4f.js",
     "static/media/calendar-icon.svg": "/calendar-challenge/static/media/calendar-icon.3a6d6f32fab5e6819efc.svg",
     "index.html": "/calendar-challenge/index.html",
     "main.d72173d1.css.map": "/calendar-challenge/static/css/main.d72173d1.css.map",
-    "main.5ecb620c.js.map": "/calendar-challenge/static/js/main.5ecb620c.js.map"
+    "main.0145ab4f.js.map": "/calendar-challenge/static/js/main.0145ab4f.js.map"
   },
   "entrypoints": [
     "static/css/main.d72173d1.css",
-    "static/js/main.5ecb620c.js"
+    "static/js/main.0145ab4f.js"
   ]
 }
