@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/HammiMinami/calendar-challenge/static/css/main.fe8b10c2.css",
+    "main.js": "/HammiMinami/calendar-challenge/static/js/main.44182497.js",
+    "static/media/calendar-icon.svg": "/HammiMinami/calendar-challenge/static/media/calendar-icon.3a6d6f32fab5e6819efc.svg",
+    "index.html": "/HammiMinami/calendar-challenge/index.html",
+    "main.fe8b10c2.css.map": "/HammiMinami/calendar-challenge/static/css/main.fe8b10c2.css.map",
+    "main.44182497.js.map": "/HammiMinami/calendar-challenge/static/js/main.44182497.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe8b10c2.css",
+    "static/js/main.44182497.js"
+  ]
+}
